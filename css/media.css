@@ -1,0 +1,435 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .header-nav {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .block {
+        flex-wrap: wrap;
+    }
+
+    .music {
+        flex-wrap: wrap;
+    }
+
+    .title-btn {
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .hero-drone {
+        left: -117px;
+    }
+
+    .price-title {
+        flex-wrap: wrap;
+        width: 600px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blocks h1 {
+        font-size: 20px;
+    }
+
+    .blocks-lable {
+        padding: 0 100px;
+    }
+
+    .hero-bd {
+        width: 90%;
+        left: 22px;
+        top: 11px;
+    }
+
+    .hero-img {
+    }
+
+    .hero-img img {
+        width: 98%;
+    }
+
+    .hero-img-title {
+        right: 63px;
+    }
+
+    .figur {
+        right: 207px;
+    }
+    .hero-img2 {
+        width: 650px;
+        height: 444px;
+    }
+    .figurs {
+        right: 485px;
+    }
+    .ion {
+        right: -456px;
+    }
+    .hero-drone img {
+        width: 70%;
+    }
+    .catalog-title {
+        padding: 0 64px;
+    }
+
+}
+
+@media (max-width: 576px) {
+   .hero-img2 {
+       width: 514px;
+       height: 357px;
+   }
+    .hero-img-title {
+        right: 34px;
+    }
+    .figur {
+        right: 177px;
+    }
+    .figurs {
+        right: 349px;
+    }
+    .ion {
+        right: -322px;
+    }
+    .blocks-lable {
+        padding-top: 20px ;
+    }
+    .blocks {
+      flex-direction: column;
+        display: flex;
+        align-items: start;
+    }
+    .music-left img {
+        width: 90%;
+    }
+    .music-left-title {
+        bottom: 100px;
+        left: 85px;
+    }
+    .music-figur1 {
+        width: 15px;
+        left: 63px;
+        top: 159px;
+        height: 15px
+    }
+    .music-figur2 {
+        top: 57px;
+        right: 109px;
+        width: 20px;
+        height: 20px;
+    }
+    .music-left-title h1 {
+        font-size: 20px;
+    }
+    .music-right-title h1 {
+        font-size: 20px;
+        padding: 0 0 10px 0;
+    }
+    .music-right img {
+        width: 90%;
+    }
+    .music-right-title {
+        bottom: 100px;
+        left: 85px;
+    }
+    .music-icon1 {
+        width: 15px;
+        left: 63px;
+        top: 159px;
+        height: 15px
+    }
+    .music-icon2 {
+        top: 57px;
+        right: 109px;
+        width: 20px;
+        height: 20px;
+    }
+    .scroll {
+        width: 397px
+    }
+    .price-title {
+        flex-direction: column;
+    }
+    .price h1{
+        padding:  0 50px;
+    }
+}
+
+@media (max-width: 451px) {
+    .hero-img2 {
+        width: 385px;
+        height: 274px;
+    }
+    .hero-drone img {
+        width: 65%;
+    }
+    .hero-img-title h1 {
+        font-size: 12px;
+    }
+    .hero-img-title {
+        right: 12px;
+        height: 91px;
+    }
+    .hero-img-title p {
+        font-size: 10px;
+    }
+    .hero-img-title h2 {
+        font-size: 10px;
+    }
+    .figur {
+        right: 123px;
+        top: 106px;
+    }
+    .icon {
+        width: 31px;
+        height: 6px;
+    }
+    .icon-center {
+        width: 31px;
+        height: 6px;
+    }
+    .ion {
+        right: -210px;
+        font-size: 5px;
+    }
+    .price  h1 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .price-title {
+        display: flex;
+        align-items: start;
+    }
+    .price-title a {
+        font-size: 35px;
+    }
+    .price {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-drone {
+        left: -104px;
+        top: 20px;
+    }
+    .ion {
+        right: -210px;
+        font-size: 20px;
+    }
+    .figurs {
+        right: 241px;
+    }
+    .hero-drone img {
+        width: 60%;
+    }
+    .scroll {
+        width: 274px;
+    }
+    .scroll div {
+        height: 12px;
+    }
+    .music-left-title h1 {
+        font-size: 15px;
+    }
+    .music-left-title p {
+        font-size: 12px;
+    }
+    .music-left-title {
+        bottom: 50px;
+        left: 59px;
+    }
+    .music-figur1 {
+        width: 10px;
+        left: 47px;
+        top: 122px;
+        height: 10px;
+    }
+    .music-figur2 {
+        top: 41px;
+        right: 77px;
+        width: 15px;
+        height: 15px;
+    }
+    .music-right-title h1 {
+        font-size: 15px;
+    }
+    .music-right-title p {
+        font-size: 12px;
+    }
+    .music-right-title {
+        bottom: 50px;
+        left: 59px;
+    }
+    .music-icon1 {
+        width: 10px;
+        left: 47px;
+        top: 122px;
+        height: 10px;
+    }
+    .music-icon2 {
+        top: 41px;
+        right: 77px;
+        width: 15px;
+        height: 15px;
+    }
+    .catalog-title h1 {
+        font-size: 20px;
+    }
+    .blocks-lable {
+        padding: 20px 10px;
+    }
+    .hero-title button {
+        font-size: 12px;
+        width: 194px;
+        height: 41px;
+    }
+    .hero-title h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .hero-title p {
+        font-size: 15px;
+    }
+    .hero-img2 {
+        width: 316px;
+        height: 228px;
+    }
+    .hero-img-title {
+        right: 1px;
+        height: 68px;
+    }
+    .figur {
+        right: 116px;
+        top: 80px;
+    }
+    .figurs {
+        right: 197px;
+        top: 198px;
+    }
+    .ion {
+        right: -201px;
+        font-size: 15px;
+    }
+    .catalog-title {
+        font-size: 20px;
+    }
+    .icon {
+        width: 24px;
+        height: 4px;
+    }
+    .icon-center {
+        width: 24px;
+        height: 4px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-title p {
+        font-size: 13px;
+    }
+    .hero-img2 {
+        width: 271px;
+        height: 200px;
+    }
+    .hero-img-title h1 {
+        font-size: 10px;
+    }
+    .hero-img-title p {
+        font-size: 9px;
+    }
+    .hero-img-title h2 {
+         font-size: 8px;
+     }
+    .figurs {
+        right: 150px;
+        top: 175px;
+    }
+    .ion {
+        right: -157px;
+    }
+    .hero-drone img {
+        width: 55%;
+    }
+    .hero-title button {
+        font-size: 10px;
+        width: 146px;
+        height: 34px;
+    }
+    .music-left-title {
+        bottom: 35px;
+        left: 44px;
+    }
+    .music-left-title p {
+        font-size: 10px;
+    }
+    .music-figur1 {
+        width: 8px;
+        left: 35px;
+        top: 90px;
+        height: 8px;
+    }
+    .music-figur2 {
+        top: 30px;
+        right: 63px;
+        width: 15px;
+        height: 15px;
+    }
+    .music-right-title {
+        bottom: 48px;
+        left: 44px;
+    }
+    .music-right-title p {
+        font-size: 10px;
+    }
+    .music-icon1 {
+        width: 8px;
+        left: 35px;
+        top: 90px;
+        height: 8px;
+    }
+    .music-icon2 {
+        top: 30px;
+        right: 63px;
+        width: 15px;
+        height: 15px;
+    }
+    .music-right-title h1 {
+        font-size: 13px;
+    }
+    .catalog-title {
+        font-size: 17px;
+    }
+    .price h1 {
+        font-size: 18px;
+    }
+    .price-title a {
+        font-size: 30px;
+    }
+    .header-price {
+        display: none;
+    }
+}
